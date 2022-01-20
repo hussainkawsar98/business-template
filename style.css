@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+p {
+    margin-bottom: 10px;
+}
+.container {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+/* Banner Style */
+section#banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.banner_text {
+    width: 50%;
+}
+.banner_text h2 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    line-height: 80px;
+}
+.banner_text h2 span {
+    color: #e91e63;
+}
+.banner_text p {
+    font-size: 20px;
+}
+.banner_text button {
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #e91e63;
+    border-radius: 5px;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.banner_text button:hover {
+    background-color: #e91e63c2;
+}
+
+.banner_img {
+    width: 50%;
+}
+.banner_img img {
+    max-width: 100%;
+}
+section#banner > img {
+    animation: rotate 1.2s linear 0s infinite normal;
+}
+@keyframes rotate {
+    from {transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+}
+section#banner .first_img {
+    top: 20%;
+    left:5%;
+    position: absolute;
+}
+section#banner .second_img {
+    position: absolute;
+    top: 10%;
+    right:35%;
+}
+section#banner .third_img {
+    position: absolute;
+    top: 15%;
+    right:15%;
+}
+section#banner .fourth_img {
+    position: absolute;
+    top: 50%;
+    right:25%;
+}
+section#banner .fifth_img {
+    position: absolute;
+    top: 30%;
+    right:45%;
+}
+section#banner .sixth_img {
+    position: absolute;
+    top: 10%;
+    right:15%;
+}
+section#banner seventh_img {
+    position: absolute;
+    top: 10%;
+    right:15%;
+}
+
+
+/* Company Style */
+section#company {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+section#company .img {
+    width: 40%;
+}
+section#company .img img{
+    max-width: 100%;
+}
+.company_text {
+    width: 60%;
+}
+.company_text h3 {
+    font-size: 30px;
+    margin: 0;
+}
+.company_text h4 {
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    line-height: 40px;
+}
+.company_text p {
+    font-size: 18px;
+}
+.company_count {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+.company_count .single {
+    width: 30.33%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.company_count h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+.company_text p {
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+}
