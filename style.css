@@ -17,6 +17,9 @@ section#banner {
     display: flex;
     align-items: center;
     position: relative;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    transition: all ease 4s;
 }
 .banner_text {
     width: 50%;
@@ -47,12 +50,13 @@ section#banner {
 
 .banner_img {
     width: 50%;
+    padding: 20px 10%;
 }
 .banner_img img {
-    max-width: 100%;
+    max-width: 90%;
 }
 section#banner > img {
-    animation: rotate 1.2s linear 0s infinite normal;
+    animation: rotate 3s linear 0s infinite normal;
 }
 @keyframes rotate {
     from {transform: rotate(0deg); }
@@ -66,32 +70,32 @@ section#banner .first_img {
 section#banner .second_img {
     position: absolute;
     top: 10%;
-    right:35%;
+    right: 48%;
 }
 section#banner .third_img {
     position: absolute;
-    top: 15%;
-    right:15%;
+    top: 24%;
+    right: 15%;
 }
 section#banner .fourth_img {
     position: absolute;
-    top: 50%;
-    right:25%;
+    top: 80%;
+    right: 18%;
 }
 section#banner .fifth_img {
     position: absolute;
-    top: 30%;
-    right:45%;
+    top: 55%;
+    right: 8%;
 }
 section#banner .sixth_img {
     position: absolute;
-    top: 10%;
-    right:15%;
+    top: 86%;
+    right: 80%;
 }
-section#banner seventh_img {
+section#banner .fourth_img {
     position: absolute;
-    top: 10%;
-    right:15%;
+    top: 59%;
+    right: 50%;
 }
 
 
@@ -143,4 +147,24 @@ section#company .img img{
 .company_text p {
     font-size: 16px;
     margin: 5px 0 5px 0;
+}
+.single a {
+    transition: all ease 5s;
+}
+.faq {
+    box-shadow: 6px 0px 10px #ccc;
+    margin: 50px 10%;
+}
+.faq h2:hover p {
+    background-color: red;
+}
+.faq h2 {
+    background-color: #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.faq p {
+    margin-bottom: 10px;
+    padding: 10px;
+
 }
